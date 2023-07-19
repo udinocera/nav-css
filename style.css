@@ -1,26 +1,36 @@
 *{
 padding: 0px;
-margin: 20px;
+margin: 0px;
 box-sizing: border-box;
-
 }
 
+ul{
+    display: inline; 
+}
 
+li{
+    display: inline;
+    padding: 0px 20px;
+}
 
 .topnav {
     background-color: rgb(52,58,64);
-    padding: 5px;
+    align-content: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 
 a {
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 #navbar {
     color: white;
-    font-size: 35px;
-    padding-left: 15px;
+    font-size: 30px;
+    
 }
 
 #home {
@@ -36,6 +46,7 @@ a {
 #dropdown {
     color: rgb(153,156,157);
     font-size: 20px;
+    
 }
 
 #disable {
@@ -45,15 +56,29 @@ a {
 
 
 .search {
-    display:inline-flex;
-    padding-left: 8cm;
+    display: flex;
     align-items: center;
+    padding-left: 20px;
 }
 
 
 .text-area{
-    padding: 17px;
+    border-radius: 8px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    text-decoration: none;
 }
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: gray;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+
 
 
 #bottone {
@@ -62,6 +87,12 @@ a {
     border: green solid 2px;
     border-radius: 4px;
     font-size: 23px;
-    padding: 10px;
+    padding: 11px;
+    margin-right: 20px;
     
 }
+
+#bottone:hover {
+    background-color: green;
+    color: white;
+  }
